@@ -26,4 +26,5 @@ jobs:
           cd /var/www/deploy-check/
           git pull origin main
           git status
+          npm i
           npm run build
